@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+/* Estilos generales */
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('img/fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+/* Cabecera */
+header {
+    background-color: #171717; /* Fondo semitransparente */
+    color: white;
+    padding: 2px;
+    font-size: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid white;
+}
+
+/* Secciones */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    /*background: #1e1e1e; */
+    background: linear-gradient(to right, #1e1e1ef1, #4b4848e5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+h2 {
+    color: white;
+}
+
+li {
+    color: black;
+}
+
+/* Video */
+.video-container video {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Aspectos Técnicos */
+.aspectos-tecnicos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.aspectos-tecnicos li {
+    background: #eee;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #171717;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-top: 1px solid white;
+}
